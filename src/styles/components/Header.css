@@ -1,0 +1,117 @@
+.header-container {
+  width: 100%;
+  height: 80px;
+  max-height: 80px;
+}
+
+.content {
+  padding: 0 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: inherit;
+}
+
+.content-left {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 46%;
+}
+
+.content-title {
+  width: 54%;
+}
+
+.content-title ul {
+  display: -webkit-box;
+  list-style: none;
+}
+
+.content-title li {
+  margin: 20px;
+}
+
+.content-title a {
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.content-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-header {
+  width: 60%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+.search-header form {
+  position: relative;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    width: 94%;
+  }
+}
+.search-header form input {
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid var(--grey);
+  border-radius: 24px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: content-box;
+}
+.search-header form input::placeholder {
+  color: var(--pink);
+}
+
+.search-header form button {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.search-header form button svg {
+  width: 20px;
+  height: 25px;
+}
+.header-login {
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--black);
+
+  @media (max-width: 768px) {
+    padding: 5px;
+  }
+}
+
+.header-card {
+  @media (max-width: 768px) {
+    padding: 5px;
+  }
+}
+
+.header-card svg {
+  width: 25px;
+  height: 25px;
+  color: var(--black);
+}
