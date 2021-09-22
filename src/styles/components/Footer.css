@@ -1,0 +1,139 @@
+.container-footer {
+  background-color: var(--pink);
+}
+.container-footer-content {
+  max-width: 1440px;
+  margin: auto;
+  padding: 120px;
+  text-align: center;
+  color: var(--white);
+
+  @media (max-width: 768px) {
+    padding: 30px 20px;
+  }
+}
+
+.container-footer-title {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.container-footer-title h2 {
+  text-transform: uppercase;
+  margin: 20px 0 40px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container-footer-title p {
+  font-weight: 500;
+}
+
+.container-footer-title h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.container-footer-email {
+  background-color: var(--black);
+}
+
+.container-footer-email-content {
+  max-width: 1440px;
+  margin: auto;
+  padding: 120px;
+  text-align: center;
+  color: var(--white);
+
+  @media (max-width: 768px) {
+    padding: 30px 20px;
+  }
+}
+
+.container-footer-email-content-title {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.container-footer-email-content-title h2 {
+  text-transform: uppercase;
+  margin: 20px 0 40px;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0 40px;
+}
+
+.container-footer-email-content-title h2::before {
+  content: "//";
+  color: var(--green);
+  margin-right: 15px;
+}
+
+.container-footer-email-content-title h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.container-footer-email-content-title div {
+  position: relative;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.container-footer-email-content-title input {
+  font-weight: 500;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--green);
+  padding: 10px;
+  width: 100%;
+  color: var(--white);
+}
+
+.container-footer-email-content-title button {
+  font-weight: 700;
+  background: none;
+  border: none;
+  color: var(--green);
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.container-footer-img {
+  background: var(--black);
+}
+
+.container-footer-img-content {
+  max-width: 1210px;
+  margin: auto;
+  padding: 20px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-footer-img-left {
+  width: 30%;
+  @media (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.container-footer-img-right {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.container-footer-img-right svg {
+  width: 31px;
+  height: 27px;
+  color: var(--white);
+}
