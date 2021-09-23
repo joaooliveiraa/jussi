@@ -3,13 +3,17 @@ import Banner from "./components/Banner";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 
+import SearchPageProvider from "./context/SearchPage";
+
 function App() {
   return (
     <>
-    <Header/>
-    <Banner />
-    <Content />
-    <Footer />
+      <SearchPageProvider>
+        <Header />
+        <Banner />
+        <Content />
+        <Footer />
+      </SearchPageProvider>
     </>
   );
 }

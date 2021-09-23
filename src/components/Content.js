@@ -6,7 +6,31 @@ import consulLogo from "../assets/logo-consul.png";
 import thebarLogo from "../assets/logo-thebar.png";
 import Jussi from "../assets/image-jussi.png";
 
+import Card from './Card';
+
 export default function Content() {
+
+  const soluctions =
+    [
+      {
+        title: "P1", name: "Nome do Produto #1", description: "Descrição do produto #1",
+        feacture: [{ description: "-1" }, { description: "0" }]
+
+      },
+      {
+        title: "P2", name: "Nome do Produto #2", description: "Descrição do produto #2",
+        feacture: [{ description: "feacture 1" }, { description: "2" }]
+      },
+      {
+        title: "P3", name: "Nome do Produto #3", description: "Descrição do produto #3",
+        feacture: [{ description: "3" }, { description: "4" }]
+      },
+      {
+        title: "P4", name: "Nome do Produto #4", description: "Descrição do produto #4",
+        feacture: [{ description: "5" }, { description: "6" }]
+      }
+    ]
+
   return (
     <>
       <section className="content-section-c">
@@ -37,7 +61,16 @@ export default function Content() {
         <div className="content-solutions-items">
           <h2>Nossas soluções</h2>
           <div className="content-solutions-container">
-            <div className="content-solutions-content">
+            {soluctions.map((soluction) => (
+              <Card 
+                title={soluction.title}
+                name={soluction.name}
+                description={soluction.description}
+                feacture={soluction.feacture}
+              />
+            ))}
+
+            {/*<div className="content-solutions-content"> 
               <div className="content-solutions-title">P1</div>
               <h4>Nome do Produto #1</h4>
               <p>Descrição do produto #1</p>
@@ -80,7 +113,7 @@ export default function Content() {
                 <li>Feature 3</li>
               </ul>
               <button>Ver solução</button>
-            </div>
+            </div>*/}
           </div>
         </div>
       </section>
