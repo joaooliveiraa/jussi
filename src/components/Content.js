@@ -68,51 +68,6 @@ export default function Content() {
                 feacture={soluction.feacture}
               />
             ))}
-
-            {/*<div className="content-solutions-content"> 
-              <div className="content-solutions-title">P1</div>
-              <h4>Nome do Produto #1</h4>
-              <p>Descrição do produto #1</p>
-              <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-              </ul>
-              <button>Ver solução</button>
-            </div>
-            <div className="content-solutions-content">
-              <div className="content-solutions-title">P2</div>
-              <h4>Nome do Produto #2</h4>
-              <p>Descrição do produto #2</p>
-              <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-              </ul>
-              <button>Ver solução</button>
-            </div>
-            <div className="content-solutions-content">
-              <div className="content-solutions-title">P3</div>
-              <h4>Nome do Produto #3</h4>
-              <p>Descrição do produto #3</p>
-              <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-              </ul>
-              <button>Ver solução</button>
-            </div>
-            <div className="content-solutions-content">
-              <div className="content-solutions-title">P4</div>
-              <h4>Nome do Produto #4</h4>
-              <p>Descrição do produto #4</p>
-              <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
-              </ul>
-              <button>Ver solução</button>
-            </div>*/}
           </div>
         </div>
       </section>
