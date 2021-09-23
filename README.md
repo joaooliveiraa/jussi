@@ -6,22 +6,19 @@
 
 ![Screenshot](landingpage.PNG)
 
-## Available Scripts
+## Funcionalidade
 
 - Landing page desenvolvida através do layout proposto em [Figma](https://www.figma.com/file/O9AEeYB6ZWyMTZzMZhvjaY/loja-vtex-jussi?node-id=0%3A1).
 
-- No campo "Buscar" será possível buscar dados de um usuário do [GitHub] (https://github.com/) para consulta. Esse recurso conta como o uso da api do github para buscar os dados.
+- No campo "Buscar" será possível buscar dados de um usuário do [GitHub] (https://github.com/) para consulta. Esse recurso conta como o uso da API do próprio github para buscar os dados.
 
--Exemplos de buscas:
-    - joaooliveiraa
-    - filipedeschamps
-    - diego3g
+- Exemplos de buscas para informar no campo: joaooliveiraa, filipedeschamps, diego3g
 
 ![Screenshot](landingpageSearch.PNG)
 
 ## Instalação e execução ​ℹ️ 
 
-- Caso não deseja baixar o projeto, para visualização basta entrar em [jussi-home] (https://jussi-jussi-home.vercel.app/).
+- Caso não deseja baixar o projeto, para visualização basta entrar (https://jussi-jussi-home.vercel.app/) ou:
 
 1. Faça um clone desse repositório rodando um `git clone https://github.com/joaooliveiraa/jussi.git`;
 2. Entre na pasta rodando `cd jussi`;
