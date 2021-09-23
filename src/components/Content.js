@@ -14,20 +14,19 @@ export default function Content() {
     [
       {
         title: "P1", name: "Nome do Produto #1", description: "Descrição do produto #1",
-        feacture: [{ description: "-1" }, { description: "0" }]
-
+        feacture: [{ description: "Feature 1" }, { description: "Feature 2" }, { description: "Feature 3" }]
       },
       {
         title: "P2", name: "Nome do Produto #2", description: "Descrição do produto #2",
-        feacture: [{ description: "feacture 1" }, { description: "2" }]
+        feacture: [{ description: "Feature 1" }, { description: "Feature 2" }, { description: "Feature 3" }]
       },
       {
         title: "P3", name: "Nome do Produto #3", description: "Descrição do produto #3",
-        feacture: [{ description: "3" }, { description: "4" }]
+        feacture: [{ description: "Feature 1" }, { description: "Feature 2" }, { description: "Feature 3" }]
       },
       {
         title: "P4", name: "Nome do Produto #4", description: "Descrição do produto #4",
-        feacture: [{ description: "5" }, { description: "6" }]
+        feacture: [{ description: "Feature 1" }, { description: "Feature 2" }, { description: "Feature 3" }]
       }
     ]
 
@@ -62,7 +61,7 @@ export default function Content() {
           <h2>Nossas soluções</h2>
           <div className="content-solutions-container">
             {soluctions.map((soluction) => (
-              <Card 
+              <Card
                 title={soluction.title}
                 name={soluction.name}
                 description={soluction.description}
