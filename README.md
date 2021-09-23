@@ -16,7 +16,7 @@
 
 ![Screenshot](landingpageSearch.PNG)
 
-## Instalação e execução ​ℹ️ 
+## Instalação execução e visualização ​
 
 - Caso não deseja baixar o projeto, para visualização basta entrar (https://jussi-jussi-home.vercel.app/) ou:
 
